@@ -1,5 +1,6 @@
-import { NextPage } from 'next';
-import Head from 'next/head';
+import { NextPage } from "next";
+import Head from "next/head";
+import Header from "../components/Header";
 
 const Home: NextPage = () => {
   return (
@@ -7,11 +8,12 @@ const Home: NextPage = () => {
       <Head>
         <title>Skafti's Portfolio</title>
       </Head>
-
-      <h1 className='text-blue-700'>We got this!!</h1>
-
+      {/* Header */}
+      <Header />
+      {/* Hero */}
+      {/* About */}
     </div>
   );
 };
 
-export default Home
+export default Home;
