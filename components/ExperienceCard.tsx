@@ -31,33 +31,11 @@ function ExperienceCard({}: Props) {
         <ul className='list-disc space-y-4 ml-5 text-lg'>
           <li>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit quae a
-            et cupiditate! Consectetur beatae pariatur temporibus suscipit
-            expedita hic illum maxime, tenetur impedit obcaecati quibusdam vel
-            fugiat iure iste.
+            et cu
           </li>
           <li>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
             voluptatem reiciendis quibusdam cumque tempora, voluptatum animi
-            minima sed, ratione eum sunt necessitatibus explicabo quos
-            asperiores hic? Minima expedita voluptate eligendi.
-          </li>
-          <li>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
-            voluptatem reiciendis quibusdam cumque tempora, voluptatum animi
-            minima sed, ratione eum sunt necessitatibus explicabo quos
-            asperiores hic? Minima expedita voluptate eligendi.
-          </li>
-          <li>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
-            voluptatem reiciendis quibusdam cumque tempora, voluptatum animi
-            minima sed, ratione eum sunt necessitatibus explicabo quos
-            asperiores hic? Minima expedita voluptate eligendi.
-          </li>
-          <li>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
-            voluptatem reiciendis quibusdam cumque tempora, voluptatum animi
-            minima sed, ratione eum sunt necessitatibus explicabo quos
-            asperiores hic? Minima expedita voluptate eligendi.
           </li>
         </ul>
       </div>
