@@ -16,49 +16,23 @@ function ExperienceCard({}: Props) {
         viewport={{ once: true }}
         className='w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center'
         src='https://www.computersciencedegreehub.com/wp-content/uploads/2016/02/what-is-coding-768x512.jpg'
-        alt=''
       />
       <div className='px-0 md:px-10'>
         <h4 className='text-4xl font-light'>BLeh</h4>
-        <p className='font-bold text-2xl mt-1'>more bleh</p>
+        <p className='font-bold text-2xl mt-1'>Mooar BLeh</p>
         <div className='flex space-x-2 my-2'>
           <img
             className='h-10 w-10 rounded-full'
             src='https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80'
           />
         </div>
-        <p className='uppercase py-5 text-[#008ad8]'>Started work.. Ended...</p>
+        <p className='uppercase py-5 text-[#fff]'>Started work.. Ended...</p>
         <ul className='list-disc space-y-4 ml-5 text-lg'>
           <li>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit quae a
-            et cupiditate! Consectetur beatae pariatur temporibus suscipit
-            expedita hic illum maxime, tenetur impedit obcaecati quibusdam vel
-            fugiat iure iste.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis
+            accusantium animi iure har
           </li>
-          <li>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
-            voluptatem reiciendis quibusdam cumque tempora, voluptatum animi
-            minima sed, ratione eum sunt necessitatibus explicabo quos
-            asperiores hic? Minima expedita voluptate eligendi.
-          </li>
-          <li>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
-            voluptatem reiciendis quibusdam cumque tempora, voluptatum animi
-            minima sed, ratione eum sunt necessitatibus explicabo quos
-            asperiores hic? Minima expedita voluptate eligendi.
-          </li>
-          <li>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
-            voluptatem reiciendis quibusdam cumque tempora, voluptatum animi
-            minima sed, ratione eum sunt necessitatibus explicabo quos
-            asperiores hic? Minima expedita voluptate eligendi.
-          </li>
-          <li>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
-            voluptatem reiciendis quibusdam cumque tempora, voluptatum animi
-            minima sed, ratione eum sunt necessitatibus explicabo quos
-            asperiores hic? Minima expedita voluptate eligendi.
-          </li>
+          <li>Lorem, ipsum dolor sit amet consectet</li>
         </ul>
       </div>
     </article>
