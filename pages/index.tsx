@@ -10,7 +10,7 @@ import Hero from "./../components/Hero";
 
 const Home: NextPage = () => {
   return (
-    <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y overflow-y-scroll overflow-x-hidden z-0">
+    <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#008ad8]/40">
       <Head>
         <title>Skafti&apos;s Portfolio</title>
       </Head>
