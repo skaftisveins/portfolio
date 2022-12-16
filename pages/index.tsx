@@ -1,4 +1,4 @@
-import { NextPage } from 'next';
+import { GetStaticProps } from 'next';
 import Head from 'next/head';
 import Link from 'next/dist/client/link';
 import About from '../components/About';
@@ -8,15 +8,21 @@ import Projects from '../components/Projects';
 import Skills from '../components/Skills';
 import WorkExperience from '../components/WorkExperience';
 import Hero from './../components/Hero';
+import { Social } from './../typing.d';
+import { fetchSocial } from './../utils/fetchSocials';
 
-const Home: NextPage = () => {
+type Props = {
+  socials: Social[];
+};
+
+const Home = ({ socials }: Props) => {
   return (
     <div className='bg-[rgb(36,36,36)] text-white h-screen snap-y overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#008ad8]/40'>
       <Head>
         <title>Skafti&apos;s Portfolio</title>
       </Head>
 
-      <Header />
+      <Header socials={socials} />
 
       <section id='hero' className='snap-start'>
         <Hero />
@@ -57,3 +63,13 @@ const Home: NextPage = () => {
 };
 
 export default Home;
+
+export const getStaticProps: GetStaticProps<Props> = async () => {
+  const socials: Social[] = await fetchSocial();
+  return {
+    props: {
+      socials,
+    },
+    revalidate: 20,
+  };
+};

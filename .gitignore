@@ -36,4 +36,6 @@ yarn-error.log*
 next-env.d.ts
 
 # sanity
-/sanity/node_modules
+sanity/node_modules
+sanity/package-lock.json
+package-lock.json
